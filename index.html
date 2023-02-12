@@ -21,8 +21,8 @@ a{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transpar
 .form__field::placeholder{color:transparent;}
 .form__field:placeholder-shown~.form__label{font-size:1.3rem;cursor:text;top:20px;}
 .form__label{position:absolute;top:0;display:block;transition:.2s;font-size:1rem;color:#fff;}
-.form__field:focus{padding-bottom:6px;font-weight:700;border-width:3px;border-image:linear-gradient(to right,red,#ffffff,red);border-image-slice:1;}
-.form__field:focus~.form__label{position:absolute;top:0;display:block;transition:.2s;font-size:1rem;color:red;font-weight:700;}
+.form__field:focus{padding-bottom:6px;font-weight:700;border-width:3px;border-image:linear-gradient(to right,white,#ffffff,white);border-image-slice:1;}
+.form__field:focus~.form__label{position:absolute;top:0;display:block;transition:.2s;font-size:1rem;color:white;font-weight:700;}
 .form__field:invalid,.form__field:required{box-shadow:none;}
 .listado{display:grid;grid-template-columns:repeat(1,1fr);}
 /*Fix: Unnecessary elements removed*/
@@ -57,7 +57,7 @@ img[data-original-width] {height: auto;}
 <div class="xaviec">
 <div class="form__group field">
 <input autocomplete="off" type="input" onkeyup="myFunction()" class="form__field" placeholder="Buscar" name="name" id="myInput" required />
-<label for="name" class="form__label">🔎 </label>
+<label for="name" class="form__label">BUSCAR...</label>
 </div></div></div><br><br><br><br>
 <center><ul class="cards" id="cards">
     
